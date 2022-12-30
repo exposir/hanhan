@@ -1,0 +1,8 @@
+{
+  "name": "hanhan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/exposir/hanhan.git",
+  "author": "孟世博 <897205285@qq.com>",
+  "license": "MIT"
+}
