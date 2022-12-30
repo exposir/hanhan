@@ -1,3 +1,9 @@
+// import { readFile, writeFile } from "fs";
+const fs = require("fs");
+const path = require("path");
+const writeFile = fs.writeFile;
+const readFile = fs.readFile;
+
 const data = [
   {
     date: "2006-11-19",
@@ -2132,6 +2138,20 @@ const data = [
   },
 ];
 
+const arr = [];
+
 data.forEach((item) => {
   console.log(item);
+
+  arr.push(`## ${item.title} \n\n`);
+  arr.push(`> ${item.date} \n\n`);
+  arr.push(`${item.content} \n\n`);
+
+  const newData = arr.join("");
+
+  writeFile("./README.md", newData, function (err) {
+    if (err) {
+      return console.error(err);
+    }
+  });
 });
