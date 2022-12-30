@@ -1,5 +1,7 @@
 # 韩寒博客
 
+https://exposir.github.io/hanhan/
+
 - [2006](./doc/2006.md)
 - [2007](./doc/2007.md)
 - [2008](./doc/2008.md)
