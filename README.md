@@ -1,3 +1,6 @@
+
+## Not in maintenance
+
 # [韩寒博客](https://exposir.github.io/hanhan/)
 
 - [2006](./doc/2006.md)
